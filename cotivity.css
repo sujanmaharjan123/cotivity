@@ -1,0 +1,304 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+    background-color:#31006E ;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    
+}
+header img{
+    width: 220px;
+    height: auto;
+}
+#hov:hover{
+    color:red;
+}
+#menu a{
+color: white;
+text-decoration: none;
+padding: 12px;
+display: inline-block;
+}
+#menu li{
+    display: inline-block;
+}
+ header nav{
+    float: right;
+}
+.container{
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+}
+#hero{
+background-color: #31006e;
+background-image: url(CotivitiAssets/banner-pattern.png);
+background-repeat: no-repeat;
+background-position: center right;
+background-size: 650px auto;
+
+padding-top: 60px;
+padding-bottom: 60px;
+
+}
+#white-box{
+    background-color: white;
+    width: 50%;
+    padding: 20px 30px;
+    margin-top: 20px;
+}
+#white-box small{
+    color: gray;
+}
+#white-box h2{
+    color: #31006e;
+    margin-top: 20px;
+    margin-bottom: 20px;
+
+}
+h1{
+    color: white;
+
+}
+#white-box p{
+    color: #eb008c;
+
+}
+#aa{
+    color:black;
+}
+#vacancy{
+    list-style-type: none;
+    margin-left: 60px;
+    margin-right: 60px;
+}
+#vacancy a{
+  text-decoration: none;
+  color: red;
+  font-size: 22px;
+  border-bottom: 1px solid #ddd;
+  display: block;
+  padding-top: 10px;
+  padding-bottom: 10px;
+    
+    
+}
+#vacancy a img{
+float: right;
+}
+section{
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+/* who we are section */
+#whoweare{
+    background-image: url(CotivitiAssets/building.png);
+    background-repeat: no-repeat;
+    background-size: 500px auto;
+    background-position: 700px bottom;
+    padding-top: 150px;
+    padding-bottom: 150px;
+}
+.w50{
+    width: 50%;
+}
+#wws{
+    background-color: #00adee;
+text-align: center;
+color: white;
+}
+.btn{
+    border:1px solid #31006f;
+    padding: 15px 20px;
+    color: black;
+    text-decoration: none;
+    display: inline-block;
+    border-radius: 5px;
+}
+section p{
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+#new{
+    color: white;
+    border-color: white;
+}
+.btn:hover {
+    background-color: #ff00b7;
+    color: white;
+}
+#parallex{
+    background-image: url(CotivitiAssets/parallax-home.jpg);
+    height: 400px;
+    background-position: center;
+    background-attachment: fixed;
+}
+#center{
+    text-align: center;
+}
+#pa1{
+    margin-top: 5%;
+    color:#2c3990 ;
+    border-color: #2c3990 solid 1px;
+}
+#pa2{
+    color: #2c3990;
+    border-color: #2c3990 solid 1px;
+}
+#center{
+    background-image: url(CotivitiAssets/join.png);
+    background-repeat: no-repeat;
+    background-position: center bottom;
+    background-size: initial;
+    background-attachment: initial;
+    padding-bottom: 120px;
+    width: 100%;
+}
+#www{
+    float: left;     
+    width: 50%;
+    height: auto;
+    display: inline-block;
+    color: white;
+}
+#in 
+{
+    /* float: right; */
+    width: 50%;
+    height: auto;
+    display: inline-block;
+  
+}
+#bottom{
+    padding-bottom: 20px;
+  
+}
+#bg{
+    background-color: #2c3990;
+    background-image: url(CotivitiAssets/csr-section-bg.jpg);
+    background-position: center bottom;
+   
+        padding-top: 70px;
+        padding-bottom: 70px;
+}
+
+
+#www a{
+    color: white;
+    border-color: white;
+}
+.style
+{
+    display: inline-block;
+    width: 25%;
+    list-style-type: none;
+}
+.foot{
+    display: inline-block;
+    width: 25%;
+}
+
+@media (min-width:560px) and (max-width:1024px) 
+{
+    header img
+{
+    width: 180px;
+    height: auto;
+}
+#menu a
+{
+    padding: 10px;
+    display: inline-block;
+    
+}
+#hero
+{
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background-image:none;
+}
+.container
+{
+    margin-left: auto;
+    margin-right: auto;
+    width: 90%;
+}
+#whitebox
+{
+    
+    width: 80%;
+    padding: 20px 30px;
+    margin-top: 20px;
+}
+
+#graph
+{
+    width: auto;
+   display: inline-block;
+   padding-left: 0px;
+   height: auto;
+   
+}
+#whoweare
+{
+    background-size: 350px auto;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+}
+
+@media(max-width:500px)
+    {
+        header img
+    {
+        width: autopx;
+        height: auto;
+    }
+    #menu a
+    {
+        padding: 10px;
+        display: inline-block;
+        
+    }
+    #hero
+    {
+        padding-top: 50px;
+        padding-bottom: 50px;
+        background-image:none;
+       
+     
+    }
+    .container
+    {
+        margin-left: auto;
+        margin-right: auto;
+        width: 90%;
+    }
+    #whoweare
+    {
+        
+        width: 100%;
+        padding: 20px 30px;
+        margin-top: 20px;
+    }
+    
+    #in
+    {
+        width: auto;
+       display: inline-block;
+       padding-left: 0px;
+       height: auto;
+       
+    }
+    #whoweare
+{
+    background-size: 250px auto;
+    padding-top: 100px;
+    padding-bottom: 100px;
+
+    
+}
+    }
